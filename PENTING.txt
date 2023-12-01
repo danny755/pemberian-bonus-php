@@ -1,0 +1,3 @@
+SELECT * FROM `penilaian` WHERE kategori = "kehadiran"
+
+melakukan join = SELECT penilaian.* , karyawan.* FROM `penilaian` INNER JOIN karyawan ON karyawan.id = penilaian.karyawanid WHERE `kategori` = 'kinerja' ORDER BY `nilai` ASC
